@@ -2,7 +2,7 @@
 
 # 🤖 Karwan
 
-### Open-Source Kurdish AI Assistant for Discord
+### Open-Source Kurdish AI Chatbot for Discord
 
 Powered by Puter AI
 
@@ -10,7 +10,7 @@ Powered by Puter AI
 [![Discord.js](https://img.shields.io/badge/Discord.js-Latest-5865F2)]()
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue)]()
 
-Karwan is a Kurdish-first AI Discord bot designed to help Kurdish communities chat with AI naturally in Kurdish.
+Karwan is a Kurdish-first AI chatbot for Discord that allows users to chat naturally in Kurdish using AI powered by Puter.
 
 </div>
 
@@ -18,21 +18,21 @@ Karwan is a Kurdish-first AI Discord bot designed to help Kurdish communities ch
 
 ## 📸 Preview
 
-![Karwan Chat](https://karwan.ay4d.icu/assets/img/img-1.png)
-![Karwan Chat](https://karwan.ay4d.icu/assets/img/img-2.png)
-![Karwan Chat](https://karwan.ay4d.icu/assets/img/img-3.png)
+![Karwan Preview 1](https://karwan.ay4d.icu/assets/img/img-1.png)
+![Karwan Preview 2](https://karwan.ay4d.icu/assets/img/img-2.png)
+![Karwan Preview 3](https://karwan.ay4d.icu/assets/img/img-3.png)
 
 ---
 
 ## ✨ Features
 
-- 🧠 AI-powered Kurdish conversations
-- 🌍 Understands Kurdish naturally
-- 💬 Works directly inside Discord
-- ⚡ Fast responses
-- 🔧 Easy configuration
-- 📖 Open Source
-- 🎨 Fully customizable
+- 🧠 AI-powered Kurdish conversations  
+- 💬 Chat directly inside Discord  
+- 🌍 Understands Kurdish naturally  
+- ⚡ Fast and lightweight responses  
+- 🔧 Easy configuration with `.env`  
+- 📖 Fully open-source  
+- 🎨 Highly customizable  
 
 ---
 
@@ -41,38 +41,46 @@ Karwan is a Kurdish-first AI Discord bot designed to help Kurdish communities ch
 ### Requirements
 
 - Node.js 20+
-- Discord Bot Token
+- A Discord Bot Token
 - Puter AI Auth Token
 
-### Clone Repository
+---
+
+### 📦 Clone Repository
 
 ```bash
 git clone https://github.com/ayadshkur10221/karwan-ai.git
 cd karwan-ai
 ```
 
-### Install Dependencies
+---
+
+### 📥 Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Create `.env`
+---
 
-Create a file called `.env` in the root directory:
+### ⚙️ Environment Setup
+
+Create a `.env` file in the root directory:
 
 ```env
 PUTER_AUTH_TOKEN=
 DISCORD_TOKEN=
 ```
 
-### Start The Bot
+---
+
+### ▶️ Run the Bot
 
 ```bash
 node app.js
 ```
 
-Or if your project uses npm scripts:
+or (if you use dev script):
 
 ```bash
 npm run dev
@@ -80,23 +88,29 @@ npm run dev
 
 ---
 
-## 🔑 Getting Tokens
+## 🔑 API Setup
 
-### Discord Token
+### Discord Bot Token
 
-1. Open Discord Developer Portal
-2. Create a new application
-3. Create a bot
-4. Copy the bot token
-5. Paste it into:
+1. Go to Discord Developer Portal  
+2. Create a new application  
+3. Create a bot  
+4. Copy the bot token  
+5. Add it to `.env`:
 
 ```env
 DISCORD_TOKEN=
 ```
 
+---
+
 ### Puter AI Token
 
-Get your [Puter](https://puter.com/) authentication token and place it in:
+Get your token from Puter:
+
+👉 https://puter.com/
+
+Then add it:
 
 ```env
 PUTER_AUTH_TOKEN=
@@ -106,16 +120,15 @@ PUTER_AUTH_TOKEN=
 
 ## 🛠 Customization
 
-You can easily customize:
+You can easily modify Karwan:
 
-- Bot name
-- Bot avatar
-- System prompt
-- AI model settings
-- Commands
-- Response behavior
+- Bot name & avatar  
+- AI system prompt  
+- Response style  
+- Commands & triggers  
+- Discord behavior  
 
-Feel free to fork and build your own version.
+This project is meant to be fork-friendly and fully customizable.
 
 ---
 
@@ -129,17 +142,21 @@ https://karwan.ay4d.icu/
 
 ## ❤️ Contributing
 
-Pull requests, bug reports, and feature suggestions are welcome.
+Contributions are welcome.
 
-If you improve Karwan, consider sharing your changes with the community.
+If you improve Karwan, feel free to submit a pull request or fork the project.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the Apache 2.0 License.
+This project is licensed under the **Apache 2.0 License**.
 
-Please keep copyright notices intact and do not claim the original project as your own.
+You are free to use, modify, and distribute this project under the license terms.
+
+Please keep original copyright notices intact.
+
+Do not present this project as your original creation.
 
 ---
 
